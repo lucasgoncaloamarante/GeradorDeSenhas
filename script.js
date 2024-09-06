@@ -33,7 +33,7 @@ function copyPassword(){
     navigator.clipboard.writeText(novaSenha);
 
     Toastify({
-        text: "Item adicionado ao carrinho!",
+        text: "Senha copiada para a área de trabalho!",
         duration: 3000,
         close: true,
         gravity: "top", // `top` or `bottom`
